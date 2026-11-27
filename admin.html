@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Admin Preview | Bwijanga SS</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f3f5f9;color:#18243a}.sidebar{background:#101e39;color:white;padding:22px;min-height:100vh;width:230px;position:fixed}.sidebar h2{font-size:18px}.sidebar a{display:block;color:#dce6f4;text-decoration:none;padding:12px 8px;border-radius:8px}.sidebar a:hover{background:#243a5e}.main{margin-left:230px;padding:26px}.top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px;margin:24px 0}.box{background:white;padding:20px;border-radius:12px;box-shadow:0 3px 12px #14284b0b}.num{font-size:28px;font-weight:bold;color:#1e3b67}.tablebox{overflow:auto;background:white;border-radius:12px;padding:18px}table{width:100%;border-collapse:collapse;min-width:550px}th,td{text-align:left;padding:12px;border-bottom:1px solid #e7ebf2}button{background:#d8a63d;color:#13213a;border:0;border-radius:8px;padding:10px 14px;font-weight:bold}.note{background:#fff4d9;padding:14px;border-radius:10px;margin:18px 0}@media(max-width:700px){.sidebar{position:relative;width:auto;min-height:auto}.sidebar a{display:inline-block}.main{margin:0;padding:18px}}
+</style></head>
+<body>
+<aside class="sidebar"><h2>BWIJANGA SS</h2><p>Admin Preview</p><a href="index.html">← Homepage</a><a href="#overview">Overview</a><a href="#students">Students</a><a href="#teachers">Teachers</a><a href="#classes">Classes</a><a href="#announcements">Announcements</a><a href="#settings">Settings</a></aside>
+<main class="main">
+<div class="top"><div><h1>Administrator Dashboard</h1><p>Welcome to the management dashboard preview.</p></div><button onclick="alert('Real administrator accounts will be added after backend setup.')">Account setup</button></div>
+<div class="note"><strong>Demo preview:</strong> This page uses sample numbers only. It is not connected to a school database and must not be used for real student records.</div>
+<section id="overview" class="grid"><div class="box"><p>Students</p><div class="num">—</div></div><div class="box"><p>Teachers</p><div class="num">—</div></div><div class="box"><p>Classes</p><div class="num">—</div></div><div class="box"><p>Notices</p><div class="num">—</div></div></section>
+<section id="students" class="tablebox"><h2>Student Management</h2><p>Student records table will be connected to the database in a later stage.</p></section>
+<section id="teachers" class="box"><h2>Teacher Management</h2><p>Manage teacher profiles and access after secure authentication is configured.</p></section>
+<section id="classes" class="box"><h2>Classes & Academics</h2><p>Classes, subjects, terms and academic year settings will be added.</p></section>
+<section id="announcements" class="box"><h2>Announcements</h2><p>Publish school notices after the administrator system is connected.</p></section>
+<section id="settings" class="box"><h2>Developer & Settings</h2><p>Developer ownership and administrator permissions will be configured securely, not through this demo page.</p></section>
+</main></body></html>
